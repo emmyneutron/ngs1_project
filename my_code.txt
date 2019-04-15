@@ -201,7 +201,7 @@ wget https://raw.githubusercontent.com/abdelrahmanMA/gtf-compare/master/code/sta
 
 for f in 1 2 3 4 5;
         do
-                pypy3 comp.py -r ../gtfs/ref_sup_*.gtf ../gtfs/ref_free_*.gtf
+                pypy3 comp.py -r ../gtfs/ref_free_*.gtf ../gtfs/ref_sup_*.gtf 
                 pypy3 stat.py
         done
 
